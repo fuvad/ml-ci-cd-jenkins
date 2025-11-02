@@ -32,7 +32,7 @@ pipeline {
             }
             steps {
                 echo 'Model passed all tests. Deploying model...'
-                bat 'python deploy.py'
+                bat 'python app.py'
             }
         }
     }
